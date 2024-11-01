@@ -1,9 +1,9 @@
 First tests and experimenting with LLMs and NLP.
 
 Project 1) 
-Revolut Youtube sentiment: Here I scraped all of the comments from the 10 7 videos on Youtube about Revolut from Finfluencers. 
 
-The from the 7 videos I pulled 269 comments for analysis.
+Revolut Youtube sentiment: Here I scraped all of the comments from the top 7 videos on Youtube about Revolut from Finfluencers. 
+The from the 7 videos I pulled 279 comments for analysis.
 
 ![output](https://github.com/user-attachments/assets/061c0a32-7d93-4636-b389-59fe7e27ecf8)
 
@@ -23,5 +23,7 @@ Example of one comment and difference in scores:
 You can get prices for flights hotels and experiences cheaper elsewhere with out using rev points for ""discounts""."
 
 roBERTa - Negative
+
 Polarity Score - Positive
+
 What do you think ??:)
