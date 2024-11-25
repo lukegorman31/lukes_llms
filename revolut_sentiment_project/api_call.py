@@ -10,7 +10,7 @@ import os
 from urllib.parse import urlparse, parse_qs
 
 # Google API Key
-API_KEY = 'AIzaSyDQQn41hFU2eCA2Sp5qpNBiQAAb-eAymjQ'
+API_KEY = 'YOURAPIKEY :P'
 
 # Extract url ids
 def extract_video_id(url):
@@ -93,4 +93,12 @@ video_urls = videos
 
 df_comments = get_comments_for_videos(video_urls)
 
+<<<<<<< HEAD
 #df_comments.to_csv('comments_df.csv')
+=======
+print(df_comments.head())
+
+print(len(df_comments['comment']))
+
+#df_comments.to_csv('comments_df.csv')
+>>>>>>> a30e3034aea74aea046dbecf0a6d8f43c0fde244
