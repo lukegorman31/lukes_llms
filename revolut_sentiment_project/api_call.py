@@ -1,6 +1,3 @@
-##API Call where I will scrape Youtube Comments Data for Revolut Finfluencer 2024 Sentiment.
-
-
 # Importing the necessary libraries for youtube API scraping and sentiment analysis
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -95,9 +92,5 @@ video_urls = videos
 
 
 df_comments = get_comments_for_videos(video_urls)
-
-print(df_comments.head())
-
-print(len(df_comments['comment']))
 
 #df_comments.to_csv('comments_df.csv')
