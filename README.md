@@ -1,9 +1,25 @@
-First tests and experimenting with LLMs and NLP.
+## Project 2
 
-Project 1) 
+### End to End BI pipeline for sentiment analysis with CGP. 
 
-Revolut Youtube sentiment: Here I scraped all of the comments from the top 7 videos on Youtube about Revolut from Finfluencers. 
-The from the 7 videos I pulled 279 comments for analysis.
+Here I built on top of the original project below. I deployed a full end to end BI pipeline to analyse youtube comments. 
+
+1) Data was pulled from youtube with an API and pushed as raw json files into google cloud storage.
+2) Raw json files were the pulled and processed which allowed for sentiment analysis.
+3) processed and labeled comments were then pushed to staging table in BigQuery.
+4) Raw data was modelled with dbt and pushed to views 
+5) Views were linked to Looker where a dashboard was created for business intelligence and decision making.
+
+
+
+
+
+## Project 1
+
+### Revolut Youtube sentiment comparative analysis:
+
+Here I scraped all of the comments from the top 7 videos on Youtube about Revolut from Finfluencers. 
+The from the 7 videos I pulled 279 comments for analysis and compared traditional NLP with a modern LLM.
 
 ![output](https://github.com/user-attachments/assets/061c0a32-7d93-4636-b389-59fe7e27ecf8)
 
