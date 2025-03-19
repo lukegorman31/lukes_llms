@@ -10,7 +10,9 @@ Here I built on top of the original project below. I deployed a full end to end 
 4) Raw data was modelled with dbt and pushed to views 
 5) Views were linked to Looker where a dashboard was created for business intelligence and decision making.
 
+System Design below:
 
+![Revolut Sentiment Analysis](https://github.com/user-attachments/assets/61f9d868-805c-40b7-bea0-134d19acae77)
 
 
 
